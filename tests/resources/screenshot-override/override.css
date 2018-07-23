@@ -1,0 +1,56 @@
+#header_message>.title {
+    visibility: hidden;
+}
+
+.visitor-profile-important-visits>div>div>p:first-child {
+    display:none;
+}
+
+.piwik-version .itemValue,
+span.piwik-version,
+span.plugin-version {
+    visibility:hidden;
+}
+
+.realTimeWidget_datetime {
+    display: none;
+}
+
+.realTimeMap_datetime {
+    visibility: hidden;
+}
+
+/* add some space around the segment editor & other controls so screenshots are clearer */
+.widget>.segmentEditorPanel, .widget>.dashboardSettings, .widget>.sites_autocomplete, .widget>.periodSelector {
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left:1em;
+}
+
+body > .widget {
+    overflow: visible !important;
+}
+
+.ui-dialog-content {
+    overflow-y: hidden !important;
+}
+
+.providerDescription {
+    border-style: solid;
+}
+
+.loadingPiwik {
+    display: none !important;
+}
+
+/* do not display RSS feed widget's contents */
+#widgetRssWidgetrssPiwik .rss {
+    display:none;
+}
+
+html body div *, body * {
+    -webkit-transition: none !important;
+    transition: none !important;
+    -webkit-animation: none !important;
+    animation: none !important;
+}
