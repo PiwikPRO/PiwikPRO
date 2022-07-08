@@ -1,5 +1,9 @@
 # Piwik
 
+
+**This is the last snapshot of open source Piwik PRO, it's no longer maintained, so please don't use it. We've migrated to a new, proprietary platform, its cloud "Core" version is available for free [here](https://piwik.pro/core-plan/)**.
+
+
 ## Description
 
 Piwik is the leading Free/Libre open analytics platform.
